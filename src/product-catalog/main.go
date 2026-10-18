@@ -60,6 +60,7 @@ func init() {
 	if err != nil {
 		log.Fatalf("Reading Product Files: %v", err)
 		os.Exit(1)
+		
 	}
 }
 
